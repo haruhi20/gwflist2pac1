@@ -28,7 +28,7 @@ VERSION = '0.0.1'
 defaultConfig = {
     'gfwUrl': 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt',
     'gfwProxy': '',
-    'pacProxy': 'DIRECT; SOCKS5 127.0.0.1:1086; PROXY 127.0.0.1:1087',
+    'pacProxy': 'DIRECT; SOCKS 127.0.0.1:7070; PROXY 127.0.0.1:8087',
     'pacFilename': 'autoproxy.pac',
     'debug': False
 }
